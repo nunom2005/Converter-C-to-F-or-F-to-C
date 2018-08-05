@@ -36,6 +36,9 @@ int main() {
     else if(choice == 2) {
         FtoC();
     }
+    else {
+    	std::cout << "Please enter a valid option!\n";
+    }
 
     return 0;
 }
